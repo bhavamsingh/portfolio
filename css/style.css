@@ -10,3 +10,10 @@ body{
     border-right: 2px solid #ccc;
 
 }
+
+.intro-img{
+    flex:1;
+}
+.intro-content{
+    flex:2;
+}
