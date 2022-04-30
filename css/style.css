@@ -17,3 +17,9 @@ body{
 .intro-content{
     flex:2;
 }
+.card-img-top{
+    height: 250px;
+}
+.card-row{
+    padding-right: -24px !important;
+}
