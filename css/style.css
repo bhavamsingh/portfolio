@@ -23,3 +23,15 @@ body{
 .card-row{
     padding-right: -24px !important;
 }
+
+.gender label{
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: aliceblue;
+    color: black;
+}
+
+.gender input:checked  ~ label{
+    background-color: blue;
+    color: white;
+}

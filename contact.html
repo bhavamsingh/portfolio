@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-light fs-2" href="#"
+              >MY PORTFOLIO</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav ms-auto">
+                <li class="nav-item fs-4 fw-bolder menu-item">
+                  <a href="" class="text-light nav-link">Home</a>
+                </li>
+                <li class="nav-item fs-4 fw-bolder menu-item">
+                  <a href="" class="text-light nav-link">About</a>
+                </li>
+                <li class="nav-item fs-4 fw-bolder">
+                  <a href="" class="text-light nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Contact us form -->
+        <section id="contact-form" class="contact-form py-5">
+            <div class="heading">
+                <h2 class="text-white text-center">Contact us</h2>
+            </div>
+            <form id="form">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <label for="first-name" class="form-label text-white">first name</label>
+                        <input type="text" name="first-name" class="form-control" id="first-name" aria-describedby="emailHelp" required>
+                    
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <label for="last-name" class="form-label text-white">last name</label>
+                        <input type="text" name="last-name" class="form-control" id="last-name" aria-describedby="emailHelp" required>
+                    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <label for="email" class="form-label text-white">Email</label>
+                        <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                       
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <label for="mobile" class="form-label text-white">Mobile</label>
+                        <input type="number" name="mobile" class="form-control" id="mobile" aria-describedby="emailHelp" required>
+                       
+                    </div>   
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-12 col-sm-4 col-lg-3">
+                        <label for="City" class="form-label text-white">City</label>
+                        <select class="form-select" name="city" aria-label="Default select example" required>
+                            <option selected>Select the city</option>
+                            <option value="raipur">raipur</option>
+                            <option value="rewa">rewa</option>
+                            <option value="satna">satna</option>
+                          </select>
+                    </div>
+                    <div class="col-12 col-sm-4 col-lg-3">
+                        <label for="state" class="form-label text-white">state</label>
+                        <select class="form-select" name="state" aria-label="Default select example" required>
+                            <option selected>select the state</option>
+                            <option value="mp">mp</option>
+                            <option value="up">up</option>
+                            <option value="bihar">bihar</option>
+                          </select>                     
+                        </div> 
+                    <div class="col-12 col-sm-4 col-lg-2">
+                        <label for="zip" class="form-label text-white">zip code</label>
+                        <input type="number" name="zip" class="form-control" id="zip" aria-describedby="emailHelp" required>
+                    </div>    
+                </div>
+                <div class="row">
+                    <div class="col-lg-2" >
+                      
+                    </div>
+                    <div class="col-12 col-lg-8 gender">
+                      <p class="text-white">select the gender</p>
+                      <div  class="d-inline-block me-2">
+                        <input type="radio"  class="d-none" name="gender" id="male" value="male"  required/>
+
+                      <label for="male" class="male">Male</label>
+                      </div>
+                      <div class="d-inline-block me-2">
+                        <input type="radio"  class="d-none" name="gender" id="female" value="female" required/>
+
+                      <label for="female" class="female">Female</label>
+                      </div>
+                      <div class="d-inline-block me-2">
+                        <input type="radio" class="d-none" name="gender" id="other" value="other" required/>
+
+                      <label for="other" class="other">Other</label>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2">
+
+                  </div>
+                  <div class="col-8">
+                    <div class="mb-3">
+                      <label for="message" class="form-label text-white">Example textarea</label>
+                      <textarea class="form-control" name="message" id="message" rows="3"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2">
+
+                  </div>
+                  <div class="col-8">
+                    <button type="submit" class="btn btn-lg btn-success me-3">Submit</button>
+                    <button type="reset" id="reset" class="btn btn-lg btn-outline-warning">Reset</button>
+                  </div>
+                </div>
+
+              </form>
+        </section>
+         <!-- footer -->
+      <footer class="py-4 bg-dark" id="footer">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="quote px-4">
+              <p class="text-light ps-5">Kill them by your Success, <br> Buries them by your Smile</p>
+              <h2 class="text-success text-end fw-bold pe-4">-BHAVAM SINGH</h2>
+            </div>
+            <hr class="bg-light m-4"/>
+            <h5 class="text-light fw-bold text-center">Follow me on</h5>
+            <div class="social-icons text-light text-center">
+              <i class="lab la-facebook fs-2 me-2"></i>
+              <i class="lab la-twitter fs-2 me-2"></i>
+              <i class="lab la-github fs-2 me-2"></i>
+              <i class="lab la-instagram fs-2 me-2"></i>
+              <i class="lab la-youtube fs-2 me-2"></i>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <ul class="nav flex-column">
+              <li class="nav-item "><a class="nav-link text-light" href="#"><i class="las la-charging-station me-3"></i>My Charges</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#"><i class="las la-project-diagram me-3"></i>Who i am</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#"><i class="las la-id-badge me-3"></i> My Works</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#"><i class="las la-hiking me-3"></i>Blogs</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#"><i class="lab la-bity me-3"></i>Services</a></li>
+            </ul>
+
+          </div>
+          <div class="col-6 col-lg-3">
+            <ul class="nav flex-column">
+              <li class="nav-item "><a class="nav-link text-light" href="#"><i class="las la-charging-station me-3"></i>My Charges</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#"><i class="las la-project-diagram me-3"></i>Who i am</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#"><i class="las la-id-badge me-3"></i> My Works</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#"><i class="las la-hiking me-3"></i>Blogs</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#"><i class="lab la-bity me-3"></i>Services</a></li>
+            </ul>
+
+          </div>
+        </div>
+        <!-- copywrite -->
+        <div class="py-1 bg-light mt-4">
+          <p class="text-center ">Developed by <strong>BHAVAM SINGH</strong></p>
+        </div>
+      </footer>
+        </div>
+  
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/contact.js"></script>
+</body>
+</html>

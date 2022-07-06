@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-light fs-2" href="#"
+              >MY PORTFOLIO</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav ms-auto">
+                <li class="nav-item fs-4 fw-bolder menu-item">
+                  <a href="" class="text-light nav-link">Home</a>
+                </li>
+                <li class="nav-item fs-4 fw-bolder menu-item">
+                  <a href="" class="text-light nav-link">About</a>
+                </li>
+                <li class="nav-item fs-4 fw-bolder">
+                  <a href="" class="text-light nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- slider -->
+        <div id="carouselExampleControls" class=" carousel slide my-3" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/coffee.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/donut.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/food-table.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!-- my story -->
+          <section id="story" class="story">
+            <div class="heading">
+                <h2 class="text-white text-center">My Story</h2>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-6 p-5">
+                        <img class="w-100 h-100 img-circle" src="./images/donut.jpg " alt="">
+                    </div>
+                    <div class="col-6 p-5">
+                        <div class="text-white">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, ullam quo! Hic, animi quam eveniet consequuntur cum at qui alias eligendi repellendus voluptas itaque inventore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam assumenda earum neque voluptatibus velit veritatis omnis, dolorem quisquam, libero nihil cumque culpa eos enim aut.</p>
+                            <button class="btn btn-outline-success btn-lg">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          </section>
+
+          <!-- friqwently ask question -->\
+
+
+          <section id="faq" class="faq my-4">
+            <div class="heading">
+                <h2 class="text-white text-center">FAQ</h2>
+            </div>
+            <div class="accordion p-3" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </section>
+
+         <!-- footer -->
+      <footer class="py-4 bg-dark" id="footer">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="quote px-4">
+              <p class="text-light ps-5">Kill them by your Success, <br> Buries them by your Smile</p>
+              <h2 class="text-success text-end fw-bold pe-4">-BHAVAM SINGH</h2>
+            </div>
+            <hr class="bg-light m-4"/>
+            <h5 class="text-light fw-bold text-center">Follow me on</h5>
+            <div class="social-icons text-light text-center">
+              <i class="lab la-facebook fs-2 me-2"></i>
+              <i class="lab la-twitter fs-2 me-2"></i>
+              <i class="lab la-github fs-2 me-2"></i>
+              <i class="lab la-instagram fs-2 me-2"></i>
+              <i class="lab la-youtube fs-2 me-2"></i>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <ul class="nav flex-column">
+              <li class="nav-item "><a class="nav-link text-light" href="#"><i class="las la-charging-station me-3"></i>My Charges</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#"><i class="las la-project-diagram me-3"></i>Who i am</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#"><i class="las la-id-badge me-3"></i> My Works</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#"><i class="las la-hiking me-3"></i>Blogs</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#"><i class="lab la-bity me-3"></i>Services</a></li>
+            </ul>
+
+          </div>
+          <div class="col-6 col-lg-3">
+            <ul class="nav flex-column">
+              <li class="nav-item "><a class="nav-link text-light" href="#"><i class="las la-charging-station me-3"></i>My Charges</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#"><i class="las la-project-diagram me-3"></i>Who i am</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#"><i class="las la-id-badge me-3"></i> My Works</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#"><i class="las la-hiking me-3"></i>Blogs</a></li>
+              <li class="nav-item"><a class="nav-link text-light" href="#"><i class="lab la-bity me-3"></i>Services</a></li>
+            </ul>
+
+          </div>
+        </div>
+        <!-- copywrite -->
+        <div class="py-1 bg-light mt-4">
+          <p class="text-center ">Developed by <strong>BHAVAM SINGH</strong></p>
+        </div>
+      </footer>
+
+</div>  
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
